@@ -32,7 +32,7 @@ jobs:
         chmod +x geckodriver
 
     - name: Set up Firefox
-      uses: mozilla/geckodriver@v0.30.0-install
+      uses: mozilla/geckodriver-action@v0.29.1
       
     - name: Run Tests
       run: |
