@@ -74,3 +74,17 @@ JavaScript error: , line 0: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
+1686864104452	geckodriver	INFO	Listening on 127.0.0.1:65460
+1686864107494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65461" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\diego\\AppData\\Local\\Temp\\rust_mozprofilebSf9G2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686864107913	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686864107920	Marionette	INFO	Listening on port 65473
+Read port: 65473
+WebDriver BiDi listening on ws://127.0.0.1:65461
+1686864108072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65461/devtools/browser/7a334123-320c-49a7-9003-263fe9f0dab2
+1686864111066	Marionette	INFO	Stopped listening on port 65473
+Dynamically enable window occlusion 1
+[Parent 28800, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
